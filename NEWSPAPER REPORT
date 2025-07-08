@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+int dead,injury,alive;
+    scanf("%d",&dead);
+    scanf("%d",&injury);
+    scanf("%d",&alive);
+    printf("TSUNAMI REPORT OF JAPAN\n");
+    printf("The number of people\n");
+    printf("1)Dead:%d\n",dead);
+    printf("2)Injured:%d\n",injury);
+    printf("3)Safe:%d\n",alive);
+    printf("Please help the people who are suffering!!!");
+    return 0;
+}
