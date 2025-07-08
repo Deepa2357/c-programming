@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() 
+{
+    int A4=40,pen=20,pencil=10,eraser=5;
+    printf("Items Details\n");
+    printf("A4sheet:%d\n",A4);
+    printf("Pen:%d\n",pen);
+    printf("Pencil:%d\n",pencil);
+    printf("Eraser:%d",eraser);
+ return 0;
+}
