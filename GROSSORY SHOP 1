@@ -4,7 +4,11 @@
 #include <stdlib.h>
 int main() 
 {
-    int A4=40,pen=20,pencil=10,eraser=5;
+    int A4,pen,pencil,eraser;
+    scanf("%d\n",&A4);
+    scanf("%d\n",&pen);
+    scanf("%d\n",&pencil);
+    scanf("%d\n",&eraser);     
     printf("Items Details\n");
     printf("A4sheet:%d\n",A4);
     printf("Pen:%d\n",pen);
