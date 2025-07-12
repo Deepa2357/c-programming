@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+ int bal,opt;
+ int depo,wd;
+    scanf("%d",&bal);
+    scanf("%d",&opt);
+ switch(opt)
+     {
+    case 1:
+      scanf("%d",&depo);
+      bal=bal+depo;
+      printf("%d",bal);
+    break;
+     case 2:
+    scanf("%d",&wd);
+    if (wd>bal){
+       printf("Insufficient Balance");
+       }
+        else{
+        bal=bal-wd;
+    printf("%d",bal);
+        }
+    break;
+    default:printf("Invalid Input");
+       
+        }
+    return 0;
+}
+
+
