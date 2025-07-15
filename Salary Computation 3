@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    double salary;
+  double x,y,csalary;
+    scanf("%lf",&salary);
+    if(salary<15000){
+        x=0.15*salary;
+        y=0.90*salary;
+        }
+    else{
+        
+        x=5000;
+        y=0.98*salary;
+        
+}
+    csalary=salary+x+y;
+    printf("%.2lf",csalary);
+    return 0;
+}
